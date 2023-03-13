@@ -1,16 +1,19 @@
 {
   "name": "demoqa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Control second browser window from Cypress specs examples",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.4.0",
+    "cypress": "^12.7.0",
     "prettier": "^2.8.3"
   }
 }
